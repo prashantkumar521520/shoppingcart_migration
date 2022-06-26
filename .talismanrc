@@ -1,0 +1,6 @@
+fileignoreconfig:
+- filename: src/main/resources/application.properties
+  checksum: e7486bb5d69f52405394c2204691dd8ebc391e8fcc4d841123814659b3400231
+- filename: src/main/resources/db/migration/V1__CreateTableUser.sql
+  checksum: 3f74a71856ded2e62ac7fe22caa087459ffe48ea1840d0441daee7c385138b05
+version: "1.0"
