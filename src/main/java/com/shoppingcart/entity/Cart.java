@@ -6,12 +6,10 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "users")
-public class User {
+@Table(name = "carts")
+public class Cart {
     @Id
     @GeneratedValue
     private Long id;
-    private String name;
-    private String address;
-    private String phone_no;
+    private Long user_id;
 }
