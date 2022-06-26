@@ -5,4 +5,6 @@ fileignoreconfig:
   checksum: 3f74a71856ded2e62ac7fe22caa087459ffe48ea1840d0441daee7c385138b05
 - filename: src/main/resources/db/migration/V2__CreateTableProduct.sql
   checksum: 906c1ce01b58855dc13e2f33fc89ab42ba19c4d900e57f5f69f4be9c43625ad2
+- filename: src/main/resources/db/migration/V3__RenameColumnName.sql
+  checksum: 416002a4d3f44c3cfd24c524d382ccceafb0a90cd2aab4197b7c8f55ebcb5993
 version: "1.0"
