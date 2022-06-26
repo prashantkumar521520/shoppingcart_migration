@@ -1,0 +1,7 @@
+CREATE TABLE carts (
+id INTEGER NOT NULL UNIQUE,
+user_id INTEGER NOT NULL,
+PRIMARY KEY(id),
+FOREIGN KEY(user_id)
+REFERENCES users(id)
+);
